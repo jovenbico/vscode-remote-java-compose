@@ -3,7 +3,7 @@
 {
 	"name": "Java & Compose",
 	"dockerComposeFile": "docker-compose.yml",
-	"service": "app",
+	"service": "vscode-remote-java-compose",
 	"workspaceFolder": "/vscode-remote-java-compose",
 
 	// Configure tool-specific properties.

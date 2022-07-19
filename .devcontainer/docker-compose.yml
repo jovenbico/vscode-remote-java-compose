@@ -5,8 +5,8 @@ volumes:
 
     null
 services:
-  app:
-    container_name: javadev
+  vscode-remote-java-compose:
+    container_name: vscode-remote-java-compose
     build:
       context: .
       dockerfile: Dockerfile
@@ -37,7 +37,7 @@ services:
     # (Adding the "ports" property to this file will not forward from a Codespace.)
 
   db:
-    container_name: postgresdb
+    container_name: vscode-remote-java-compose-postgresdb
     image: postgres:latest
     restart: unless-stopped
     volumes:
